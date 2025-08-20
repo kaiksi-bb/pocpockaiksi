@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://example.com"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "kaiksi" => "you@example.com" }
-  s.source       = { :git => "https://github.com/kiks2627/pocpockaiksi.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/kaiksi-bb/pocpockaiksi.git", :tag => "#{s.version}" }
   s.ios.deployment_target = "12.0"
   s.source_files = "Sources/**/*.swift"
 end
