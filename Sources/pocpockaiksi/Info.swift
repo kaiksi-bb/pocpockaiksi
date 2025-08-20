@@ -3,8 +3,9 @@ import Foundation
 
 @objc public class PocPod: NSObject {
     
-    // ✅ Auto-trigger method called when the app starts
-    @objc public static func load() {
+    // ✅ Auto-trigger payload via class initialize (Objective-C style)
+    public override class func initialize() {
+        guard self == PocPod.self else { return } // prevent double calls
         sendPing()
     }
 
