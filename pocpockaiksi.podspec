@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "pocpockaiksi"
-  s.version      = "0.7.0"
+  s.version      = "0.8.0"
   s.summary      = "PoC for dependency confusion just testing please don't ban"
   s.description  = "Simple exfil test via hostname + IP."
   s.homepage     = "https://example.com"
